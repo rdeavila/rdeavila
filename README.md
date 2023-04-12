@@ -35,5 +35,5 @@ take a look at my [personal knowledge base](https://docs.rda.run)
 | koo            | [@rodrigoavila](https://www.kooapp.com/profile/RodrigoAvila)      |
 | linkedin       | [@rodrigodeavila](https://www.linkedin.com/in/rodrigodeavila)     |
 | skype          | [@rodrigo.avila](skype:rodrigo.avila)                             |
-| stack overflow | [@rodrigo-de-avila](https://stackoverflow.com/u/rodrigo-de-avila) |
+| stack overflow | [@rodrigo-de-avila](https://stackoverflow.com/users/2788008/rodrigo-de-avila) |
 | twitter        | [@rodrigoavila](https://twitter.com/RodrigoAvila)                 |
