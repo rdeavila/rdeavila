@@ -15,6 +15,11 @@ EOF
 sudo modprobe overlay
 sudo modprobe br_netfilter
 
+cat <<EOF | sudo tee /etc/NetworkManager/conf.d/calico.conf
+[keyfile]
+unmanaged-devices=interface-name:cali*;interface-name:tunl*;interface-name:vxlan.calico;interface-name:vxlan-v6.calico;interface-name:wireguard.cali;interface-name:wg-v6.cali
+EOF
+
 sudo yum install vim wget nmap-ncat epel-release jq -y
 sudo yum update -y
 
