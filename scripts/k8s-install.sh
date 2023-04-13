@@ -80,7 +80,7 @@ echo ""
 echo "Run this command to start the controlplane"
 echo "   kubeadm config images pull"
 echo "   kubeadm init --control-plane-endpoint 192.168.1.149 --pod-network-cidr=172.26.0.1/16"
-#echo "   kubectl apply -f https://github.com/weaveworks/weave/releases/download/v2.8.1/weave-daemonset-k8s.yaml"
+echo "   kubectl apply -f https://raw.githubusercontent.com/projectcalico/calico/master/manifests/calico.yaml"
 echo ""
 
 exit 0
