@@ -1,5 +1,5 @@
 #!/bin/env bash
-# curl https://raw.githubusercontent.com/rdeavila/rdeavila/main/scripts/k8s-install.sh | bash
+# curl -sSL https://raw.githubusercontent.com/rdeavila/rdeavila/main/scripts/k8s-install.sh | bash
 
 sudo systemctl stop firewalld
 sudo systemctl disable firewalld
