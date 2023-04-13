@@ -17,7 +17,6 @@ sudo modprobe br_netfilter
 
 sudo yum install vim wget nmap-ncat epel-release jq -y
 sudo yum update -y
-sudo wget https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64 -O /usr/bin/yq && sudo chmod +x /usr/bin/yq
 
 cat <<EOF | sudo tee /etc/sysctl.d/k8s.conf
 net.bridge.bridge-nf-call-iptables  = 1
@@ -52,8 +51,8 @@ sudo systemctl restart docker
 #  ...
 #  [plugins."io.containerd.grpc.v1.cri".containerd.runtimes.runc.options]
 #    SystemdCgroup = true
-containerd config default > /etc/containerd/config.toml
-sed -i 's/SystemdCgroup = false/SystemdCgroup = true/g' /etc/containerd/config.toml
+sudo containerd config default > /etc/containerd/config.toml
+sudo sed -i 's/SystemdCgroup = false/SystemdCgroup = true/g' /etc/containerd/config.toml
 sudo systemctl enable containerd
 sudo systemctl restart containerd
 
