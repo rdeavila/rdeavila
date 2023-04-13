@@ -38,7 +38,8 @@ cat <<EOF | sudo tee /etc/docker/daemon.json
   "log-opts": {
     "max-size": "100m"
   },
-  "storage-driver": "overlay2"
+  "storage-driver": "overlay2",
+  "bip": "172.26.0.1/16"
 }
 EOF
 
@@ -73,8 +74,8 @@ sudo systemctl enable --now kubelet
 echo ""
 echo "Run this command to start the controlplane"
 echo "   kubeadm config images pull"
-echo "   kubeadm init --control-plane-endpoint 192.168.1.149"
-echo "   kubectl apply -f https://github.com/weaveworks/weave/releases/download/v2.8.1/weave-daemonset-k8s.yaml"
+echo "   kubeadm init --control-plane-endpoint 192.168.1.149 --pod-network-cidr=172.26.0.1/16"
+#echo "   kubectl apply -f https://github.com/weaveworks/weave/releases/download/v2.8.1/weave-daemonset-k8s.yaml"
 echo ""
 
 exit 0
