@@ -73,6 +73,7 @@ sudo systemctl enable --now kubelet
 
 echo ""
 echo "Run this command to start the controlplane"
+echo "   kubeadm config images pull"
 echo "   kubeadm init --control-plane-endpoint 192.168.1.149"
 echo ""
 
