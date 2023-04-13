@@ -43,17 +43,17 @@ cat <<EOF | sudo tee /etc/docker/daemon.json
 }
 EOF
 
-containerd config default > /etc/containerd/config.toml
+sudo systemctl daemon-reload
+sudo systemctl enable docker
+sudo systemctl restart docker
 
 # vim /etc/containerd/config.toml
 #[plugins."io.containerd.grpc.v1.cri".containerd.runtimes.runc]
 #  ...
 #  [plugins."io.containerd.grpc.v1.cri".containerd.runtimes.runc.options]
 #    SystemdCgroup = true
-
-sudo systemctl daemon-reload
-sudo systemctl enable docker
-sudo systemctl restart docker
+containerd config default > /etc/containerd/config.toml
+sed -i 's/SystemdCgroup = false/SystemdCgroup = true/g' /etc/containerd/config.toml
 sudo systemctl enable containerd
 sudo systemctl restart containerd
 
