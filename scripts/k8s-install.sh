@@ -1,12 +1,15 @@
 #!/bin/env bash
 # curl -sSL https://raw.githubusercontent.com/rdeavila/rdeavila/main/scripts/k8s-install.sh | bash
 
+# Firewall
 sudo systemctl stop firewalld
 sudo systemctl disable firewalld
 
+#SELinux
 sudo setenforce 0
 sudo sed -i 's/^SELINUX=enforcing$/SELINUX=permissive/' /etc/selinux/config
 
+#Kernel
 cat <<EOF | sudo tee /etc/modules-load.d/k8s.conf
 br_netfilter
 overlay
@@ -15,14 +18,17 @@ EOF
 sudo modprobe overlay
 sudo modprobe br_netfilter
 
+# Network
 cat <<EOF | sudo tee /etc/NetworkManager/conf.d/calico.conf
 [keyfile]
 unmanaged-devices=interface-name:cali*;interface-name:tunl*;interface-name:vxlan.calico;interface-name:vxlan-v6.calico;interface-name:wireguard.cali;interface-name:wg-v6.cali
 EOF
 
-sudo yum install vim wget nmap-ncat epel-release jq -y
+# Dependencies
+sudo yum install yum-utils vim wget nmap-ncat epel-release jq -y
 sudo yum update -y
 
+# sysctl
 cat <<EOF | sudo tee /etc/sysctl.d/k8s.conf
 net.bridge.bridge-nf-call-iptables  = 1
 net.bridge.bridge-nf-call-ip6tables = 1
@@ -31,7 +37,7 @@ EOF
 
 sudo sysctl --system
 
-sudo yum install -y yum-utils
+# Docker
 sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
 sudo yum install docker-ce docker-ce-cli containerd.io -y
 
@@ -52,16 +58,13 @@ sudo systemctl daemon-reload
 sudo systemctl enable docker
 sudo systemctl restart docker
 
-# vim /etc/containerd/config.toml
-#[plugins."io.containerd.grpc.v1.cri".containerd.runtimes.runc]
-#  ...
-#  [plugins."io.containerd.grpc.v1.cri".containerd.runtimes.runc.options]
-#    SystemdCgroup = true
+# Containerd
 sudo containerd config default > /etc/containerd/config.toml
 sudo sed -i 's/SystemdCgroup = false/SystemdCgroup = true/g' /etc/containerd/config.toml
 sudo systemctl enable containerd
 sudo systemctl restart containerd
 
+# Kubernetes
 cat <<EOF | sudo tee /etc/yum.repos.d/kubernetes.repo
 [kubernetes]
 name=Kubernetes
@@ -76,6 +79,7 @@ EOF
 sudo yum install -y kubelet kubeadm kubectl --disableexcludes=kubernetes
 sudo systemctl enable --now kubelet
 
+# Manual commands
 echo ""
 echo "Run this command to start the controlplane"
 echo "   kubeadm config images pull"
