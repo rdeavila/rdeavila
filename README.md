@@ -4,7 +4,7 @@ i'm a senior infrastructure analyst at [zenvia inc](https://www.zenvia.com)
 
 ### my interests
 
-topics I am interested in: [almalinux](https://github.com/topics/almalinux),
+topics i am interested in: [almalinux](https://github.com/topics/almalinux),
 [bash](https://github.com/topics/bash),
 [golang](https://github.com/topics/go),
 [haproxy](https://github.com/topics/haproxy),
@@ -20,7 +20,18 @@ topics I am interested in: [almalinux](https://github.com/topics/almalinux),
 * zenvia open talk: [want to deliver faster? use boring
   solutions](https://l.rda.run/use-boring-solutions-slides)
 
-### docs
+### my projects
+
+these are some of my personal projects
+
+* [chef server file upload](https://github.com/rdeavila/chef-server-file-upload): 
+  upload files to chef server using knife upload command
+* [csprng password generator](https://chrome.google.com/webstore/detail/csprng-password-generator/deahmndfficmofchljfigkikokaameag): 
+  generate passwords using randomness from cloudflare's edge servers
+* [csprng api](https://csprng.rda.run): the api used to generate randomness
+* [fake smtp](https://github.com/rdeavila/fake-smtp): a postfix server for dev/test environment
+
+### my memories
 
 take a look at my [personal knowledge base](https://docs.rda.run)
 
@@ -36,4 +47,5 @@ take a look at my [personal knowledge base](https://docs.rda.run)
 | linkedin       | [@rodrigodeavila](https://www.linkedin.com/in/rodrigodeavila)     |
 | skype          | [@rodrigo.avila](skype:rodrigo.avila)                             |
 | stack overflow | [@rodrigo-de-avila](https://stackoverflow.com/users/2788008/rodrigo-de-avila) |
+| threads        | [@rodrigo.de.avila](https://www.threads.net/@rodrigo.de.avila)    |
 | twitter        | [@rodrigoavila](https://twitter.com/RodrigoAvila)                 |
