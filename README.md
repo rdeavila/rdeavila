@@ -24,6 +24,7 @@ topics i am interested in: [almalinux](https://github.com/topics/almalinux),
 
 these are some of my personal projects
 
+* [almalinux mirror](https://mirrors.rda.run): a mirror for almalinux os
 * [chef server file upload](https://github.com/rdeavila/chef-server-file-upload): 
   upload files to chef server using knife upload command
 * [csprng password generator](https://chrome.google.com/webstore/detail/csprng-password-generator/deahmndfficmofchljfigkikokaameag): 
