@@ -1,11 +1,16 @@
 hi! i'm a senior infrastructure analyst at [zenvia inc](https://www.zenvia.com)
 
+### my memories
+
+take a look at my [personal knowledge base](https://docs.rda.run)
+
 ### my interests
 
 topics i am interested in: [almalinux](https://github.com/topics/almalinux),
 [bash](https://github.com/topics/bash),
 [golang](https://github.com/topics/go),
 [haproxy](https://github.com/topics/haproxy),
+[jamstack](https://github.com/topics/jamstack),
 [kubernetes](https://github.com/topics/kubernetes), and
 [postgresql](https://github.com/topics/postgresql)
 
@@ -32,10 +37,6 @@ these are some of my personal projects
 * [personal rpm repository](https://repo.rda.run): by now hosting haproxy
   versions for almalinux / oracle linux / rocky linux
 * [fake smtp](https://github.com/rdeavila/fake-smtp): a postfix server for dev/test environment
-
-### my memories
-
-take a look at my [personal knowledge base](https://docs.rda.run)
 
 ### contact me
 
