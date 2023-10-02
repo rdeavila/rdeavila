@@ -8,7 +8,7 @@ take a look at my [personal knowledge base](https://docs.rda.run)
 
 topics i am interested in: [almalinux](https://github.com/topics/almalinux),
 [bash](https://github.com/topics/bash),
-[golang](https://github.com/topics/go),
+[crystal](https://github.com/topics/crystal),
 [haproxy](https://github.com/topics/haproxy),
 [jamstack](https://github.com/topics/jamstack),
 [kubernetes](https://github.com/topics/kubernetes), and
