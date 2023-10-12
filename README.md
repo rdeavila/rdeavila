@@ -27,10 +27,12 @@ topics i am interested in: [almalinux](https://github.com/topics/almalinux),
 
 these are some of my personal projects
 
-* [almalinux mirror](https://mirrors.rda.run): a mirror for almalinux os
+* [almalinux and termux mirrors](https://mirrors.rda.run): a mirror site for almalinux and termux
 * [almalinux mirrors report](https://mirrors-report.rda.run): update propagation info for all almalinux mirrors
 * [chef server file upload](https://github.com/rdeavila/chef-server-file-upload): 
   upload files to chef server using knife upload command
+* [sre whatsapp channel](https://whatsapp.com/channel/0029Va5hwwNEgGfRIzTj653v)): 
+  a channel dedicated to essential information about sre (site reliability engineering), covering practices, tools, and insights for reliability professionals
 * [csprng password generator](https://chrome.google.com/webstore/detail/csprng-password-generator/deahmndfficmofchljfigkikokaameag): 
   generate passwords using [csprng](https://en.wikipedia.org/wiki/Cryptographically_secure_pseudorandom_number_generator) randomness from cloudflare's edge servers
 * [csprng api](https://csprng.rda.run): the [csprng](https://en.wikipedia.org/wiki/Cryptographically_secure_pseudorandom_number_generator) api used to generate randomness
