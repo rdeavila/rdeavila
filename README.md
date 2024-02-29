@@ -43,6 +43,8 @@ these are some of my personal projects
 
 | site           | user                                                              |
 | -------------- | ----------------------------------------------------------------- |
+| almalinux      | [@rdeavila](https://git.almalinux.org/rdeavila)                   |
+| codeberg       | [@rdeavila](https://codeberg.org/rdeavila)                        |
 | github         | [@rdeavila](https://github.com/rdeavila)                          |
 | gitlab         | [@rdeavila](https://gitlab.com/rdeavila)                          |
 | instagram      | [@rodrigo.de.avila](https://instagram.com/rodrigo.de.avila)       |
