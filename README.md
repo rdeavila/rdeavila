@@ -49,7 +49,6 @@ these are some of my personal projects
 | gitlab         | [@rdeavila](https://gitlab.com/rdeavila)                          |
 | instagram      | [@rodrigo.de.avila](https://instagram.com/rodrigo.de.avila)       |
 | keybase        | [@rodrigo](https://keybase.io/rodrigo)                            |
-| koo            | [@rodrigoavila](https://www.kooapp.com/profile/RodrigoAvila)      |
 | linkedin       | [@rodrigodeavila](https://www.linkedin.com/in/rodrigodeavila)     |
 | skype          | [@rodrigo.avila](skype:rodrigo.avila)                             |
 | stack overflow | [@rodrigo-de-avila](https://stackoverflow.com/users/2788008/rodrigo-de-avila) |
