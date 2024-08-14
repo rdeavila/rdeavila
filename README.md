@@ -27,6 +27,7 @@ topics i am interested in: [almalinux](https://github.com/topics/almalinux),
 
 these are some of my personal projects
 
+* [almalinux official mirror](https://mirrors.rda.run): an official mirror for the [almalinux](https://mirrors.almalinux.org) distribution
 * [almalinux mirrors report](https://mirrors-report.rda.run): update propagation info for all almalinux mirrors
 * [chef server file upload](https://github.com/rdeavila/chef-server-file-upload): 
   upload files to chef server using knife upload command
