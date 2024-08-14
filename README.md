@@ -46,12 +46,12 @@ these are some of my personal projects
 | -------------- | ----------------------------------------------------------------- |
 | almalinux      | [@rdeavila](https://git.almalinux.org/rdeavila)                   |
 | codeberg       | [@rdeavila](https://codeberg.org/rdeavila)                        |
+| git.rda.run    | [@rdeavila](https://git.rda.run/rdeavila)                         |
 | github         | [@rdeavila](https://github.com/rdeavila)                          |
 | gitlab         | [@rdeavila](https://gitlab.com/rdeavila)                          |
 | instagram      | [@rodrigo.de.avila](https://instagram.com/rodrigo.de.avila)       |
 | keybase        | [@rodrigo](https://keybase.io/rodrigo)                            |
 | linkedin       | [@rodrigodeavila](https://www.linkedin.com/in/rodrigodeavila)     |
-| skype          | [@rodrigo.avila](skype:rodrigo.avila)                             |
 | stack overflow | [@rodrigo-de-avila](https://stackoverflow.com/users/2788008/rodrigo-de-avila) |
 | threads        | [@rodrigo.de.avila](https://www.threads.net/@rodrigo.de.avila)    |
 | twitter        | [@rodrigoavila](https://twitter.com/RodrigoAvila)                 |
