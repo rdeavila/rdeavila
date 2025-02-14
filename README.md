@@ -8,7 +8,7 @@ take a look at my [personal knowledge base](https://docs.rda.run)
 
 topics i am interested in: [almalinux](https://github.com/topics/almalinux),
 [bash](https://github.com/topics/bash),
-[crystal](https://github.com/topics/crystal),
+[golang](https://github.com/topics/go),
 [haproxy](https://github.com/topics/haproxy),
 [jamstack](https://github.com/topics/jamstack),
 [kubernetes](https://github.com/topics/kubernetes), and
@@ -41,18 +41,19 @@ these are some of my personal projects
   versions for almalinux / oracle linux / rocky linux
 * [fake smtp](https://github.com/rdeavila/fake-smtp): a postfix server for dev/test environment
 
+[is any service on rda.run down?](https://status.rda.run)
+
 ### contact me
 
-| site           | user                                                              |
-| -------------- | ----------------------------------------------------------------- |
-| almalinux      | [@rdeavila](https://git.almalinux.org/rdeavila)                   |
-| codeberg       | [@rdeavila](https://codeberg.org/rdeavila)                        |
-| git.rda.run    | [@rdeavila](https://git.rda.run/rdeavila)                         |
-| github         | [@rdeavila](https://github.com/rdeavila)                          |
-| gitlab         | [@rdeavila](https://gitlab.com/rdeavila)                          |
-| instagram      | [@rodrigo.de.avila](https://instagram.com/rodrigo.de.avila)       |
-| keybase        | [@rodrigo](https://keybase.io/rodrigo)                            |
-| linkedin       | [@rodrigodeavila](https://www.linkedin.com/in/rodrigodeavila)     |
-| stack overflow | [@rodrigo-de-avila](https://stackoverflow.com/users/2788008/rodrigo-de-avila) |
-| threads        | [@rodrigo.de.avila](https://www.threads.net/@rodrigo.de.avila)    |
-| twitter        | [@rodrigoavila](https://twitter.com/RodrigoAvila)                 |
+| site              | user                                                                          |
+| ------------------| ----------------------------------------------------------------------------- |
+| almalinux         | [@rdeavila](https://git.almalinux.org/rdeavila)                               |
+| codeberg          | [@rdeavila](https://codeberg.org/rdeavila)                                    |
+| github            | [@rdeavila](https://github.com/rdeavila)                                      |
+| gitlab            | [@rdeavila](https://gitlab.com/rdeavila)                                      |
+| instagram         | [@rodrigo.de.avila](https://instagram.com/rodrigo.de.avila)                   |
+| keybase           | [@rodrigo](https://keybase.io/rodrigo)                                        |
+| linkedin          | [@rodrigodeavila](https://www.linkedin.com/in/rodrigodeavila/)                |
+| stack overflow    | [@rodrigo-de-avila](https://stackoverflow.com/users/2788008/rodrigo-de-avila) |
+| threads           | [@rodrigo.de.avila](https://www.threads.net/@rodrigo.de.avila)                |
+| x                 | [@rodrigoavila](https://x.com/RodrigoAvila)                                   |
