@@ -27,6 +27,7 @@ topics i am interested in: [almalinux](https://github.com/topics/almalinux),
 
 these are some of my personal projects
 
+* [clear address](https://clear-address.rda.run): instead of over-promising, we tell you exactly what we can reliably check in a email address
 * [transaction log](https://txlog.rda.run): a system to track package transactions on RPM-based systems, compiling data on the number of updates and installations
 * [almalinux official mirror](https://mirrors.rda.run): an official mirror for the [almalinux](https://mirrors.almalinux.org) distribution
 * [almalinux mirrors report](https://mirrors-report.rda.run): update propagation info for all almalinux mirrors
