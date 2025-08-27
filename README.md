@@ -30,11 +30,11 @@ these are some of my personal projects
 * [clear address](https://clear-address.rda.run): instead of over-promising, we tell you exactly what we can reliably check in a email address
 * [transaction log](https://txlog.rda.run): a system to track package transactions on RPM-based systems, compiling data on the number of updates and installations
 * [almalinux official mirror](https://mirrors.rda.run): an official mirror for the [almalinux](https://mirrors.almalinux.org) distribution
+* [rpm repository](https://rpm.rda.run): hosting packages for almalinux / oracle linux / rocky linux
+* [apt repository](https://apt.rda.run): hosting packages for debian-based distros
 * [almalinux mirrors report](https://mirrors-report.rda.run): update propagation info for all almalinux mirrors
 * [chef server file upload](https://github.com/rdeavila/chef-server-file-upload): 
   upload files to chef server using knife upload command
-* [sre whatsapp channel](https://whatsapp.com/channel/0029Va5hwwNEgGfRIzTj653v)): 
-  a channel dedicated to essential information about sre (site reliability engineering), covering practices, tools, and insights for reliability professionals
 * [csprng password generator](https://chrome.google.com/webstore/detail/csprng-password-generator/deahmndfficmofchljfigkikokaameag): 
   generate passwords using [csprng](https://en.wikipedia.org/wiki/Cryptographically_secure_pseudorandom_number_generator) randomness from cloudflare's edge servers
 * [csprng api](https://csprng.rda.run): the [csprng](https://en.wikipedia.org/wiki/Cryptographically_secure_pseudorandom_number_generator) api used to generate randomness
