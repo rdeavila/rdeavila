@@ -1,10 +1,10 @@
 hi! i'm a senior infrastructure analyst at [zenvia inc](https://www.zenvia.com)
 
-### my memories
+## my memories
 
 take a look at my [personal knowledge base](https://docs.rda.run)
 
-### my interests
+## my interests
 
 topics i am interested in: [almalinux](https://github.com/topics/almalinux),
 [bash](https://github.com/topics/bash),
@@ -14,7 +14,7 @@ topics i am interested in: [almalinux](https://github.com/topics/almalinux),
 [kubernetes](https://github.com/topics/kubernetes), and
 [postgresql](https://github.com/topics/postgresql)
 
-### my lectures
+## my lectures
 
 * pgconf.brasil 2022: [moving 15 tb of data from one state to
   another](https://l.rda.run/pgconf-brasil-2022-video)
@@ -23,7 +23,7 @@ topics i am interested in: [almalinux](https://github.com/topics/almalinux),
 * zenvia open talk: [want to deliver faster? use boring
   solutions](https://l.rda.run/use-boring-solutions-slides)
 
-### my projects
+## my projects
 
 these are some of my personal projects
 
@@ -44,11 +44,33 @@ these are some of my personal projects
 
 [is any service on rda.run down?](https://status.rda.run)
 
-### contact me
+## my services
+
+### installer
+
+a copy of [installer](https://github.com/jpillora/installer)
+
+```bash
+# install <user>/<repo> from github on /usr/local/bin
+# remove ! to install on working directory
+curl https://install.rda.run/<user>/<repo>@<release>! | bash
+
+# search web for github repo <query>
+curl https://install.rda.run/<query>! | bash
+```
+
+### what is your ip address
+
+```bash
+curl https://ip.rda.run
+```
+
+## contact me
 
 | site              | user                                                                          |
 | ------------------| ----------------------------------------------------------------------------- |
 | almalinux         | [@rdeavila](https://git.almalinux.org/rdeavila)                               |
+| bluesky           | [@rda.run](https://bsky.app/profile/rda.run)                                  |
 | codeberg          | [@rdeavila](https://codeberg.org/rdeavila)                                    |
 | github            | [@rdeavila](https://github.com/rdeavila)                                      |
 | gitlab            | [@rdeavila](https://gitlab.com/rdeavila)                                      |
