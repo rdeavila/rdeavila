@@ -14,8 +14,11 @@ topics i am interested in: [almalinux](https://github.com/topics/almalinux),
 [kubernetes](https://github.com/topics/kubernetes), and
 [postgresql](https://github.com/topics/postgresql)
 
-## my lectures
+## articles and lectures
 
+* [Boring Solutions: Strategy for Sustainable Engineering](https://docs.rda.run/articles/en-us/boring-solutions/introduction)
+* [Why your email validation using regex is probably wrong](https://docs.rda.run/articles/en-us/email/validation)
+* [DoH: how does DNS resolution work in ClearAddress?](https://docs.rda.run/articles/en-us/dns/doh)
 * pgconf.brasil 2022: [moving 15 tb of data from one state to
   another](https://l.rda.run/pgconf-brasil-2022-video)
   ([slides](https://l.rda.run/pgconf-brasil-2022-slides),
