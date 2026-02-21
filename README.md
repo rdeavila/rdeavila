@@ -30,8 +30,11 @@ topics i am interested in: [almalinux](https://github.com/topics/almalinux),
 
 these are some of my personal projects
 
+* [ns116](https://ns116.rda.run): free your team from the aws console and take absolute control of your dns with security, speed, and transparency
+* [strata](https://strata.rda.run): unifies the minecraft ecosystem, bringing PaperMC stability and Geyser connectivity
 * [clear address](https://clear-address.rda.run): instead of over-promising, we tell you exactly what we can reliably check in a email address
-* [transaction log](https://txlog.rda.run): a system to track package transactions on RPM-based systems, compiling data on the number of updates and installations
+* [txlog](https://txlog.rda.run): a system to track package transactions on RPM-based systems, compiling data on the number of updates and installations
+* [vsite](https://github.com/rdeavila/vsite): static html video gallery generator
 * [almalinux official mirror](https://mirrors.rda.poa.br): an official mirror for the [almalinux](https://mirrors.almalinux.org) distribution
 * [rpm repository](https://rpm.rda.run): hosting packages for almalinux / oracle linux / rocky linux
 * [apt repository](https://apt.rda.run): hosting packages for debian-based distros
