@@ -30,6 +30,7 @@ topics i am interested in: [almalinux](https://github.com/topics/almalinux),
 
 these are some of my personal projects
 
+* [komparo](https://komparo.rda.run): fast and standalone CLI tool written in Go to compare PostgreSQL database schemas.
 * [ns116](https://ns116.rda.run): free your team from the aws console and take absolute control of your dns with security, speed, and transparency
 * [strata](https://strata.rda.run): unifies the minecraft ecosystem, bringing PaperMC stability and Geyser connectivity
 * [clear address](https://clear-address.rda.run): instead of over-promising, we tell you exactly what we can reliably check in a email address
