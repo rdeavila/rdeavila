@@ -45,8 +45,6 @@ These are some of my personal projects
 * [csprng password generator](https://chrome.google.com/webstore/detail/csprng-password-generator/deahmndfficmofchljfigkikokaameag): 
   generate passwords using [csprng](https://en.wikipedia.org/wiki/Cryptographically_secure_pseudorandom_number_generator) randomness from cloudflare's edge servers
 * [csprng api](https://csprng.rda.run): the [csprng](https://en.wikipedia.org/wiki/Cryptographically_secure_pseudorandom_number_generator) api used to generate randomness
-* [personal rpm repository](https://repo.rda.run): by now hosting haproxy
-  versions for almalinux / oracle linux / rocky linux
 * [fake smtp](https://github.com/rdeavila/fake-smtp): a postfix server for dev/test environment
 
 [Is any service on rda.run down?](https://status.rda.run)
