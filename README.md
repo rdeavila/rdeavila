@@ -1,12 +1,12 @@
-hi! i'm a senior infrastructure analyst at [zenvia inc](https://www.zenvia.com)
+Hi! I'm a IT Infrastructure Specialist at [zenvia SMS Ltda](https://www.zenvia.com).
 
-## my memories
+## My memories
 
-take a look at my [personal knowledge base](https://docs.rda.run)
+Take a look at my [personal knowledge base](https://docs.rda.run).
 
-## my interests
+## My interests
 
-topics i am interested in: [almalinux](https://github.com/topics/almalinux),
+Topics i am interested in: [almalinux](https://github.com/topics/almalinux),
 [bash](https://github.com/topics/bash),
 [golang](https://github.com/topics/go),
 [haproxy](https://github.com/topics/haproxy),
@@ -14,7 +14,7 @@ topics i am interested in: [almalinux](https://github.com/topics/almalinux),
 [kubernetes](https://github.com/topics/kubernetes), and
 [postgresql](https://github.com/topics/postgresql)
 
-## articles and lectures
+## Articles and lectures
 
 * [Boring Solutions: Strategy for Sustainable Engineering](https://docs.rda.run/articles/en-us/boring-solutions/introduction)
 * [Why your email validation using regex is probably wrong](https://docs.rda.run/articles/en-us/email/validation)
@@ -26,9 +26,9 @@ topics i am interested in: [almalinux](https://github.com/topics/almalinux),
 * zenvia open talk: [want to deliver faster? use boring
   solutions](https://l.rda.run/use-boring-solutions-slides)
 
-## my projects
+## My projects
 
-these are some of my personal projects
+These are some of my personal projects
 
 * [komparo](https://komparo.rda.run): fast and standalone CLI tool written in Go to compare PostgreSQL database schemas.
 * [ns116](https://ns116.rda.run): free your team from the aws console and take absolute control of your dns with security, speed, and transparency
@@ -49,13 +49,13 @@ these are some of my personal projects
   versions for almalinux / oracle linux / rocky linux
 * [fake smtp](https://github.com/rdeavila/fake-smtp): a postfix server for dev/test environment
 
-[is any service on rda.run down?](https://status.rda.run)
+[Is any service on rda.run down?](https://status.rda.run)
 
-## my services
+## My services
 
 ### installer
 
-a copy of [installer](https://github.com/jpillora/installer)
+A copy of [installer](https://github.com/jpillora/installer)
 
 ```bash
 # install <user>/<repo> from github on /usr/local/bin
@@ -66,13 +66,13 @@ curl https://install.rda.run/<user>/<repo>@<release>! | bash
 curl https://install.rda.run/<query>! | bash
 ```
 
-### what is your ip address
+### What is your ip address
 
 ```bash
 curl https://ip.rda.run
 ```
 
-## contact me
+## Contact me
 
 | site              | user                                                                          |
 | ------------------| ----------------------------------------------------------------------------- |
